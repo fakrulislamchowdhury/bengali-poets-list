@@ -1,0 +1,33 @@
+.cart{
+    text-align: left;
+    margin-left: 40px;
+    padding-left: 40px;
+    position: fixed;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    line-height: 20px;  
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+.item{
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+.item img{
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    
+}
