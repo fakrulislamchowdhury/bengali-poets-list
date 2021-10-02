@@ -3,7 +3,7 @@ import {faShoppingCart} from '@fortawesome/free-solid-svg-icons';
 import './Poet.css';
 
 const Poet = (props) => {
-    const{img, name, job, dob, country, salary}=props.poet; // destructuring
+    const{img, name, job, dob, country, salary}=props.poet; // destructuring in poet
     const cartIcon = <FontAwesomeIcon icon={faShoppingCart} />;
     console.log(props.poet);
 
@@ -24,5 +24,4 @@ const Poet = (props) => {
         </>
     );
 };
-
 export default Poet;
